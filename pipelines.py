@@ -23,8 +23,8 @@ class Option(object):
         self.max_epoch = 100
         self.lr = 1e-4
         self.stop_epoch = 5
-        self.lam = [1e-10, 1e-10, 1e-10]
-        self.tao = [1e10, 1e10, 1e10]
+        self.lam = [1e-8, 1e-8, 1e-8]
+        self.tao = [0.1, 0.1, 0.1]
 
     def __str__(self):
         return str(self.__dict__)
